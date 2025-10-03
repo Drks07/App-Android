@@ -27,6 +27,7 @@
         android:layout_marginStart="21dp"
         android:layout_marginEnd="21dp"
         app:layout_constraintStart_toStartOf="parent"
+<<<<<<< HEAD
         app:layout_constraintEnd_toEndOf="parent"
         android:translationY="-50dp">
 
@@ -41,6 +42,11 @@
             android:textStyle="bold"
             android:textSize="18dp"
             android:paddingTop="10dp" />
+=======
+        app:layout_constraintEnd_toEndOf="parent">
+
+
+>>>>>>> 70145e35543b0b1c269eb2c1bdc7b459764b8f28
     </LinearLayout>
 
     <WebView
@@ -49,10 +55,16 @@
         android:layout_height="match_parent"
         android:layout_marginStart="21dp"
         android:layout_marginEnd="21dp"
+<<<<<<< HEAD
         android:layout_marginTop="40dp"
         android:layout_marginBottom="40dp"
         android:elevation="6dp"
         android:translationY="-30dp"
+=======
+        android:layout_marginTop="21dp"
+        android:layout_marginBottom="21dp"
+        android:elevation="6dp"
+>>>>>>> 70145e35543b0b1c269eb2c1bdc7b459764b8f28
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 

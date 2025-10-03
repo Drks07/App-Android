@@ -42,8 +42,12 @@
                     android:textSize="20sp"
                     android:textStyle="bold"
                     android:textColor="@color/text_main"
+<<<<<<< HEAD
                     android:layout_marginTop="25dp"
                     android:padding="5dp"/>
+=======
+                    android:layout_marginTop="10dp"/>
+>>>>>>> 70145e35543b0b1c269eb2c1bdc7b459764b8f28
 
                 <!-- Contraseña oculta -->
                 <TextView
@@ -106,6 +110,7 @@
                     android:backgroundTint="@color/black"
                     android:textSize="18dp"
                     android:text="Ver Repositorio"/>
+<<<<<<< HEAD
 
                 <Button
                     android:id="@+id/btnLinterna"
@@ -124,6 +129,8 @@
                     android:backgroundTint="@color/black"
                     android:textSize="18dp"
                     android:text="Abrir Camara"/>
+=======
+>>>>>>> 70145e35543b0b1c269eb2c1bdc7b459764b8f28
             </LinearLayout>
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>

@@ -27,6 +27,7 @@ public class AcercaActivity extends AppCompatActivity {
         WebView webView = findViewById(R.id.webViewAcerca);
         webView.getSettings().setJavaScriptEnabled(true);
         webView.loadUrl("https://github.com/Drks07/App-Android");
+<<<<<<< HEAD
 
         //Funcion para el boton de volver al menu de inicio desde el Acerca de
         Button btnVolverAlInicio = findViewById(R.id.btnVolverAlInicio);
@@ -34,6 +35,8 @@ public class AcercaActivity extends AppCompatActivity {
         btnVolverAlInicio.setOnClickListener(v -> {
             finish();
         });
+=======
+>>>>>>> 70145e35543b0b1c269eb2c1bdc7b459764b8f28
     }
 
 }

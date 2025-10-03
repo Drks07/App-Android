@@ -1,6 +1,7 @@
 package com.devst.app;
 
 
+<<<<<<< HEAD
 import android.Manifest;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -8,12 +9,18 @@ import android.graphics.Camera;
 import android.hardware.camera2.CameraAccessException;
 import android.hardware.camera2.CameraCharacteristics;
 import android.hardware.camera2.CameraManager;
+=======
+import android.content.Intent;
+>>>>>>> 70145e35543b0b1c269eb2c1bdc7b459764b8f28
 import android.net.Uri;
 import android.os.Bundle;
 
 import android.widget.Button;
 import android.widget.TextView;
+<<<<<<< HEAD
 import android.widget.Toast;
+=======
+>>>>>>> 70145e35543b0b1c269eb2c1bdc7b459764b8f28
 
 
 import androidx.activity.EdgeToEdge;
@@ -21,18 +28,30 @@ import androidx.activity.EdgeToEdge;
 import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AppCompatActivity;
+<<<<<<< HEAD
 import androidx.core.content.ContextCompat;
+=======
+
+>>>>>>> 70145e35543b0b1c269eb2c1bdc7b459764b8f28
 
 
 public class HomeActivity extends AppCompatActivity {
 
     //Encapsulamientos
+<<<<<<< HEAD
     private String emailUsuario, contrasenaUsuario, nombreUsuario ="";
     private TextView tvBienvenida, tvContrasenaHome, tvNombreHome;
     private CameraManager camara;
     private String camaraID = null;
     private boolean luz = false;
     private Button btnLinterna;
+=======
+    private String emailUsuario ="";
+    private String contrasenaUsuario = "";
+
+    private String nombreUsuario = "";
+    private TextView tvBienvenida, tvContrasenaHome, tvNombreHome;
+>>>>>>> 70145e35543b0b1c269eb2c1bdc7b459764b8f28
 
 
 
@@ -51,6 +70,7 @@ public class HomeActivity extends AppCompatActivity {
                 }
             });
 
+<<<<<<< HEAD
     //Launcher para pedir permiso de camara en tiempo de ejecucion
     private final ActivityResultLauncher<String>permisoCamaraLauncher =
             registerForActivityResult(new ActivityResultContracts.RequestPermission(), granted -> {
@@ -83,6 +103,8 @@ public class HomeActivity extends AppCompatActivity {
         }
     }
 
+=======
+>>>>>>> 70145e35543b0b1c269eb2c1bdc7b459764b8f28
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -98,9 +120,12 @@ public class HomeActivity extends AppCompatActivity {
         Button btnEnviarCorreo = findViewById(R.id.btnEnviarCorreo);
         Button btnCompartir = findViewById(R.id.btnCompartir);
         Button btnAcercaDe = findViewById(R.id.btnAcercaDe);
+<<<<<<< HEAD
         btnLinterna = findViewById(R.id.btnLinterna);
         Button btnCamara = findViewById(R.id.btnCamara);
         camara = (CameraManager) getSystemService(CAMERA_SERVICE);
+=======
+>>>>>>> 70145e35543b0b1c269eb2c1bdc7b459764b8f28
 
         //Recibir datos desde el login
         emailUsuario = getIntent().getStringExtra("email_usuario");
@@ -153,6 +178,7 @@ public class HomeActivity extends AppCompatActivity {
 
         });
 
+<<<<<<< HEAD
         try{
             for(String id : camara.getCameraIdList()) {
                 CameraCharacteristics cc = camara.getCameraCharacteristics(id);
@@ -187,6 +213,8 @@ public class HomeActivity extends AppCompatActivity {
                 startActivity(new Intent(this, CamaraActivity.class))
         );
 
+=======
+>>>>>>> 70145e35543b0b1c269eb2c1bdc7b459764b8f28
     }
 
 }
