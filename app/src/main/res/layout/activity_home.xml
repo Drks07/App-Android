@@ -33,101 +33,100 @@
                 android:paddingTop="8dp"
                 android:paddingBottom="8dp" />
 
-                <!-- Título o Nombre de Usuario -->
-                <TextView
-                    android:id="@+id/tvBienvenida"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Bienvenido:"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/text_main"
-                    android:layout_marginTop="25dp"
-                    android:padding="5dp"/>
+            <!-- Título o Nombre de Usuario -->
+            <TextView
+                android:id="@+id/tvBienvenida"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bienvenido:"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_main"
+                android:layout_marginTop="25dp"
+                android:padding="5dp"/>
 
 
 
-                <!-- Contraseña oculta -->
-                <TextView
-                    android:id="@+id/tvContrasenaHome"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text=""
-                    android:visibility="gone"/>
+            <!-- Contraseña oculta -->
+            <TextView
+                android:id="@+id/tvContrasenaHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:visibility="gone"/>
 
-                <!-- Correo oculto -->
-                <TextView
-                    android:id="@+id/tvNombreHome"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text=""
-                    android:visibility="gone"/>
+            <!-- Correo oculto -->
+            <TextView
+                android:id="@+id/tvNombreHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:visibility="gone"/>
 
-                <!-- Botones -->
-                <Button
-                    android:id="@+id/btnIrPerfil"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:backgroundTint="@color/black"
-                    android:textSize="18dp"
-                    android:text="Ir a Perfil (resultado)"/>
+            <!-- Botones -->
+            <Button
+                android:id="@+id/btnIrPerfil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="@color/black"
+                android:textSize="18dp"
+                android:text="Ir a Perfil (resultado)"/>
 
-                <Button
-                    android:id="@+id/btnAbrirWeb"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="12dp"
-                    android:backgroundTint="@color/black"
-                    android:textSize="18dp"
-                    android:text="Abrir sitio web"/>
+            <Button
+                android:id="@+id/btnAbrirWeb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="@color/black"
+                android:textSize="18dp"
+                android:text="Abrir sitio web"/>
 
-                <Button
-                    android:id="@+id/btnEnviarCorreo"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="12dp"
-                    android:backgroundTint="@color/black"
-                    android:textSize="18dp"
-                    android:text="Enviar correo"/>
+            <Button
+                android:id="@+id/btnEnviarCorreo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="@color/black"
+                android:textSize="18dp"
+                android:text="Enviar correo"/>
 
-                <Button
-                    android:id="@+id/btnCompartir"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="12dp"
-                    android:backgroundTint="@color/black"
-                    android:textSize="18dp"
-                    android:text="Compartir texto"/>
+            <Button
+                android:id="@+id/btnCompartir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="@color/black"
+                android:textSize="18dp"
+                android:text="Compartir texto"/>
 
-                <Button
-                    android:id="@+id/btnAcercaDe"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="12dp"
-                    android:backgroundTint="@color/black"
-                    android:textSize="18dp"
-                    android:text="Ver Repositorio"/>
+            <Button
+                android:id="@+id/btnAcercaDe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="@color/black"
+                android:textSize="18dp"
+                android:text="Ver Repositorio"/>
 
-                <Button
-                    android:id="@+id/btnLinterna"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="12dp"
-                    android:backgroundTint="@color/black"
-                    android:textSize="18dp"
-                    android:text="Encender Linterna"/>
+            <Button
+                android:id="@+id/btnLinterna"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="@color/black"
+                android:textSize="18dp"
+                android:text="Encender Linterna"/>
 
-                <Button
-                    android:id="@+id/btnCamara"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="12dp"
-                    android:backgroundTint="@color/black"
-                    android:textSize="18dp"
-                    android:text="Abrir Camara"/>
+            <Button
+                android:id="@+id/btnCamara"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="@color/black"
+                android:textSize="18dp"
+                android:text="Abrir Camara"/>
 
-            </LinearLayout>
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 
