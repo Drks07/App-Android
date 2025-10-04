@@ -2,14 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-<<<<<<< HEAD
     <!-- Creamos permisos -->
     <uses-permission android:name="android.permission.CAMERA"/>
     <uses-feature android:name="android.hardware.camera.flash"
         android:required="false"/>
 
-=======
->>>>>>> 70145e35543b0b1c269eb2c1bdc7b459764b8f28
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
